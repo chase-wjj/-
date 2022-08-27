@@ -35,8 +35,8 @@
 
         <div class="module">
             <p id="module_1">概述</p>
-            <p id="module_2">部署</p>
-            <p id="module_3">测试</p>
+            <p id="module_2"><router-link to="/modelweb">部署</router-link></p>
+            <p id="module_3"><router-link to="/modeltest">测试</router-link></p>
         </div>
 
         <div class="deploy">
@@ -50,6 +50,13 @@
                     <th>开始时间</th>
                     <th>状态</th>
                     <th>操作</th>
+                </tr>
+                <tr>
+                    <td>/Example</td>
+                    <td>/</td>
+                    <td>/</td>
+                    <td>/</td>
+                    <td>/</td>
                 </tr>
                 
             </table>

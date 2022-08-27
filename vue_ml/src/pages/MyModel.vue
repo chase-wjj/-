@@ -12,7 +12,7 @@
               <th>删除模型</th>
             </tr>
             <tr>
-              <td id="modelName"><router-link to="/thismodel">/ {{ msgName }}</router-link></td>
+              <td id="modelName"><router-link to="/thismodel">/Example {{ msgName }}</router-link></td>
               <td>/</td>
               <td>/</td>
               <td>/</td>

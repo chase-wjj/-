@@ -3,6 +3,8 @@ import MyHome from "../pages/MyHome"
 import MyModel from "../pages/MyModel"
 import MyNewModel from "../pages/MyNewModel"
 import ThisModel from "../pages/ThisModel"
+import MyModelTest from "../pages/MyModelTest"
+import MyModelWeb from "../pages/MyModelWeb"
 
 export default new VueRouter({
     routes:[
@@ -25,6 +27,16 @@ export default new VueRouter({
             name:'ThisModel',
             path:'/thismodel',
             component:ThisModel
+        },
+        {
+            name:'ModelTest',
+            path:'/modeltest',
+            component:MyModelTest
+        },
+        {
+            name:'ModelWeb',
+            path:'/modelweb',
+            component:MyModelWeb
         }
     ]
 })
